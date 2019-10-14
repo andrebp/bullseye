@@ -123,7 +123,6 @@ struct ContentView: View {
             Spacer()
 //            Button Row
             Button(action: {
-                print("button pressed")
                 self.alertIsVisible = true;
             }) {
                 Text("Hit Me!").modifier(ButtonLargeTextStyle())
